@@ -79,7 +79,6 @@ button:hover::after {
 
 /* Cool focus effect for input */
 input:focus {
-  box-shadow: 0 0 15px rgba(74, 222, 128, 0.5);
   transition: box-shadow 0.3s ease;
 }
 
@@ -180,4 +179,19 @@ h1::after {
   font-size: 1.2em;
   color: #4ade80;
 }
+
+.input-area {
+  position: sticky;
+  bottom: 0em;
+}
+
+.main-area {
+  max-height: 95vh;
+}
+
+li {
+  text-indent:1em;
+}
+
+li:before { content: "■"; padding-right:1em; }
 
