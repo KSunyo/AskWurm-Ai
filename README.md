@@ -2,6 +2,7 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
+- [Technologies Used](#technologies-used)
 
 ## Introduction
 
@@ -35,3 +36,12 @@ To run this project locally, follow these steps:
    ```
 
 4. Open your browser and navigate to http://localhost:3000
+
+
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **React Markdown**: Renders Markdown in React.y.
+- **Framer Motion**: React animation library.
+- **Gemini 2.0**: Google’s multimodal AI model.
+- **Tailwind**: Utility-first CSS framework.
