@@ -195,3 +195,6 @@ li {
 
 li:before { content: "■"; padding-right:1em; }
 
+p {
+  padding: 1em 0 1em 0;
+}
