@@ -120,7 +120,7 @@ const App = () => {
     <div className="min-h-screen bg-black text-green-400 font-mono p-4">
       <MatrixBackground />
 
-      <main id="chat-container" className="max-w-4xl main-area mx-auto bg-gray-900 border-2 border-green-400 rounded-lg overflow-y-auto mb-4">
+      <main id="chat-container" className="max-w-4xl main-area mx-auto bg-gray-900 border-2 border-green-400 rounded-3xl overflow-y-auto mb-4">
         <div
           ref={chatContainerRef}
           className="overflow-y-auto mb-12 mt-12 p-4 overflow-x-hidden"
@@ -190,19 +190,22 @@ const App = () => {
           {loading && <p className="text-center text-gray-400">Thinking...</p>}         
         </div>
          <form onSubmit={handleSubmit} className="flex input-area max-w-4xl p-4 bg-gray-900 shadow-cyan-500/50 mx-auto flex-grow text-green-400">
-            <span className="pt-2 text-blue-400" >User@AskWurm:~$</span>
+            <span className="pt-2 ml-6 text-blue-400" >User@AskWurm:~$</span>
             <input
               type="text"
               value={inputMessage}
               onChange={(e) => setInputMessage(e.target.value)}
-              className="p-2 focus:outline-none text-green-400 bg-transparent w-full"
+              className="p-2 focus:outline-none text-white bg-transparent w-full"
               placeholder="Type your message..."
             />
             <button
               type="submit"
               className="bg-green-600 text-black font-bold py-2 px-4 rounded-lg hover:bg-green-500 transition-colors"
-            >
-              Send
+            ><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 12.6667V4.3242" stroke="black" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+<path d="M3.33331 8L7.99998 3.33333L12.6666 8" stroke="black" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+</svg>
+
             </button>
           </form>
       </main>
