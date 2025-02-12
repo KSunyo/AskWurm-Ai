@@ -189,8 +189,12 @@ h1::after {
   max-height: 95vh;
 }
 
+ul {
+  padding-left:1.5em;
+}
+
 li {
-  text-indent:1em;
+  text-indent:-1.5em;
 }
 
 li:before { content: "■"; padding-right:1em; }
