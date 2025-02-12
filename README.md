@@ -1,4 +1,5 @@
 ![image](https://firebasestorage.googleapis.com/v0/b/wudp-f5cab.appspot.com/o/askwurm-logo.gif?alt=media&token=293c3290-c39d-4093-a69e-576120599533)
+<img src="https://firebasestorage.googleapis.com/v0/b/wudp-f5cab.appspot.com/o/askwurm-logo.gif?alt=media&token=293c3290-c39d-4093-a69e-576120599533" width=100%>
 
 ## Table of Contents
 
