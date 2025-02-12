@@ -28,7 +28,7 @@ body::after {
 
 /* Enhanced glow effect for text */
 .text-green-400 {
-  text-shadow: 0 0 5px rgba(74, 222, 128, 0.5), 0 0 10px rgba(74, 222, 128, 0.3), 0 0 15px rgba(74, 222, 128, 0.1);
+  text-shadow: 0 0 5px rgba(256, 256, 256, 0.5), 0 0 10px rgba(256, 256, 256, 0.3), 0 0 15px rgba(256, 256, 256, 0.1);
 }
 
 /* Cool hover effect for buttons */
@@ -190,11 +190,11 @@ h1::after {
 }
 
 ul {
-  padding-left:1.5em;
+  padding-left:1.6em;
 }
 
 li {
-  text-indent:-1.5em;
+  text-indent:-1.6em;
 }
 
 li:before { content: "■"; padding-right:1em; }

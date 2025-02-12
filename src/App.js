@@ -179,8 +179,8 @@ const App = () => {
               transition={{ duration: 0.3 }}
             >
               <div
-                className={`inline-block p-2 rounded-lg ${
-                  message.sender === "user" ? "bg-green-600 text-black" : "text-white"
+                className={`inline-block pl-6 pr-6 rounded-lg ${
+                  message.sender === "user" ? "bg-gray-700 text-white" : "text-white"
                 }`}
               >
                 <ReactMarkdown>{message.text}</ReactMarkdown>
@@ -190,7 +190,7 @@ const App = () => {
           {loading && <p className="text-center text-gray-400">Thinking...</p>}         
         </div>
          <form onSubmit={handleSubmit} className="flex input-area max-w-4xl p-4 bg-gray-900 shadow-cyan-500/50 mx-auto flex-grow text-green-400">
-            <span className="pt-2" >></span>
+            <span className="pt-2 text-blue-400" >User@AskWurm:~$</span>
             <input
               type="text"
               value={inputMessage}
